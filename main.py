@@ -65,6 +65,7 @@ b_model = model.intercept_
 k_calc, b_calc = linregress(x1, y1)
 
 # POLYNOMINAL
+# DOCS: https://www.sklearn.org/modules/linear_model.html#polynomial-regression-extending-linear-models-with-basis-functions
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
